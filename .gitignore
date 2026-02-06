@@ -1,9 +1,11 @@
 # Ignore all files
 *
 
-# Except for juypter notebooks and python scripts
+# Except for juypter notebooks, python scripts, Argo configuration file
 !*.ipynb
 !*.py
+!*.json
 
-# Keep the .gitignore file itself
+# Keep the .gitignore file and README file
 !.gitignore
+!.md
