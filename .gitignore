@@ -1,0 +1,9 @@
+# Ignore all files
+*
+
+# Except for juypter notebooks and python scripts
+!*.ipynb
+!*.py
+
+# Keep the .gitignore file itself
+!.gitignore
